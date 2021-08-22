@@ -7,5 +7,6 @@ void setup() {
 
 void draw() {
   background(0);
+  tint(255,mouseY,mouseX);
   image(frog,0,0,mouseX,mouseY);
 }
